@@ -1,5 +1,10 @@
+* {
+	box-sizing: border-box;
+}
+
 body{
 	background-color: #FF7F50;
+	margin: 0 auto;
 }
 
 h1{
@@ -14,4 +19,39 @@ h2{
 p {
 	font-size:20px;
 	color:#FFFFFF;
+}
+
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff7d4f;
+}
+
+.nav-li {
+  float: left;
+	width: 20%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ffd54f;
+}
+
+.active {
+  background-color: #ffd54f;
+}
+
+
+.nav-li1 {
+	float: right;
+	width: 20%;
 }
